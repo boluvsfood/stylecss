@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+}
+
+h2{
+    background-color:brown;
+    color:aliceblue;
+    padding: 100px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px;
+    
+}

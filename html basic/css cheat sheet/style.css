@@ -1,0 +1,312 @@
+h1{ color: red;}
+body {
+    background-color: f4f4f4;
+    color: #555;
+}
+box-1{
+    background-color: #333;
+}
+body{ margin: 0;}
+box-1{
+    background-color: #333;
+    color:#fff;
+}
+.container {
+    width: 960px;
+
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+Margin: 5px;
+margin-bottom: 5px;
+margin-right: 10px;
+margin-left: 10px;
+.box-1 {
+    background-color:#333;
+    color:#fff;
+    border-right: 5px red solid;
+}
+.box-1{
+    background-color:#333;
+    color:#fff;
+    border-right: 5px red soild;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+}
+.box-1 {
+    background-color:#333;
+    color:#ff;
+    border: 5px red solid;
+}
+.box-1{
+    background-color:#333;
+    color:#fff;
+    border:5px red solid;
+    border-width: 3px;
+}
+.box-1{
+    background-color: #333;
+    color: fff;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+}
+
+.categories {
+    border: 10px;
+
+    padding: 10px;
+
+    border-radius: 15px;
+}
+
+categories h2  {
+    text-align: center;
+    }
+    categories ul  {
+    padding: 0;
+    list-style: none;
+    }
+    a {
+        text-decoration: none;
+       }
+
+a {
+        text-decoration: none;
+       color: #000;
+       }
+       a {
+        text-decoration: none;
+       color: #000;
+       }
+       a: hover {
+       color: red;
+       }
+
+       a {
+        text-decoration: none;
+color: #000;
+ }
+a: hover {
+  color: red;
+  }
+  a:active {
+color: green;
+ }
+
+ a {
+ text-decoration: none;
+color: #000;
+}
+       a: hover {
+       color: red;
+ }
+       a:active {
+       color: green;
+ }
+     a:visited {
+     color: yellow;
+     }
+    Save and Reload
+
+    .categories ul  {
+        padding: 0;
+        list-style: square;
+        list-style: none;
+        }
+        categories li  {
+        padding-bottom: 6px;
+        border-bottom: dotted 1px #333;
+        }
+
+        categories ul  {
+          padding: 0;
+          padding-left: 20px;
+         list-style: square;
+          list-style: none;
+ }
+        categories li  {
+         padding-bottom: 6px;
+         border-bottom: dotted 1px #333;
+          list-style-image: url('../images/check.png');
+ }
+
+ <form class="my-form">
+
+<div class="form-group">
+
+<label> Name: </label>
+
+<input type="text" name="firstName" placeholder="Enter first name">
+
+</div>
+
+<div class="form-group">
+
+<label> Email: </label>
+
+<input type="text" name="lastName">
+
+</div>
+
+<div class="form-group">
+
+<label>Message</label>
+
+<textarea name="message"></textarea>
+
+</div>
+
+<input type="submit" name="submit" value="Submit">
+
+</form>
+
+my-form {
+    padding: 20px;
+    }
+
+    my-form {
+        padding: 20px;
+        }
+        .my-form   .form-group {
+        padding-botom: 15px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+}
+
+    block {
+        float: left;
+        width: 33.3%;
+        border: 1px solid #333;
+        padding: 10px;
+}
+
+block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+clr {
+    clear: both;
+}
+
+    p-box {
+        width: 800px;
+        height: 500px;
+        border: 1px  solid  #000;
+        }
+
+        p-box {
+     width: 800px;
+       height: 500px;
+      border: 1px  solid  #000;
+       margin-top: 30px;
+}
+            .p-box  h1 {
+                position: absolute;
+       top: 40px;
+ }
+
+   p-box {
+         width: 800px;
+             height: 500px;
+             border: 1px  solid  #000;
+        margin-top: 30px;
+           position: relative;
+}
+        .p-box  h1 {
+        position: absolute;
+         top: 40px;
+}
+
+p-box  h1 {
+    position: absolute;
+    top: 100px;
+}
+
+p-box  h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+p-box  h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    }
+    .p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+<div class"p-box></div>
+<h1>Hello</h1>
+<h2>Goodbye</h2>
+</div>
+</div>
+<a class="fix-me  button" href=" ">Hello</a>
+
+p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+    .fix-me {
+    position: fixed;
+    top: 400px;
+}   
+
+.p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    background-image:url('/bgimage.jpg');
+}
+
+p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    background-image:url('../bgimage.jpg');
+    background-position: 100px  200px;
+}
+
+p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    background-image:url('../bgimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px  200px;
+    
+}
+
+p-box  h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    background-image:url('../bgimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px  200px;
+    background-repeat: center  center;
+}
+
+background-repeat: center  top;
+
+
+
